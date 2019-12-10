@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jetpack Tutorial</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_one">Fragment One</string>
+    <string name="fragment_two">Fragment Two</string>
+    <string name="go_to_fragment_2">Go To Fragment 2</string>
+    <string name="go_to_fragment_1">Go to Fragment 1</string>
+    <string name="message_fragment_one">Message From Fragment 1</string>
+</resources>
