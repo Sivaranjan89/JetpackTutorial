@@ -8,4 +8,7 @@
     <string name="go_to_fragment_2">Go To Fragment 2</string>
     <string name="go_to_fragment_1">Go to Fragment 1</string>
     <string name="message_fragment_one">Message From Fragment 1</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="sample_image_for_palette">Sample Image for palette</string>
+    <string name="show_color_extracted_from_sample_image">show color extracted from sample image</string>
 </resources>

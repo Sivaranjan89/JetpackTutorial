@@ -11,6 +11,9 @@ import com.droid.jetpacktutorial.home.adapter.TopicsAdapter
 import com.droid.jetpacktutorial.home.viewmodel.HomeViewModel
 import com.droid.jetpacktutorial.security.view.SecurityActivity
 import com.droid.jetpacktutorial.navigation.view.NavigationActivity
+import com.droid.jetpacktutorial.notifications.view.NotificationActivity
+import com.droid.jetpacktutorial.palette.view.PaletteActivity
+import com.droid.jetpacktutorial.preferences.view.PreferenceActivity
 import com.droid.jetpacktutorial.room.view.RoomActivity
 import com.droid.jetpacktutorial.utils.openActivity
 import javax.inject.Inject
@@ -47,6 +50,12 @@ class HomeActivity : AppCompatActivity() {
         }
         else if (topic.equals("Room")) {
             openActivity(RoomActivity::class.java)
+        } else if (topic.equals("Palette")) {
+            openActivity(PaletteActivity::class.java)
+        } else if (topic.equals("Notifications")) {
+            openActivity(NotificationActivity::class.java)
+        } else if (topic.equals("Preferences")) {
+            openActivity(PreferenceActivity::class.java)
         }
     }
 

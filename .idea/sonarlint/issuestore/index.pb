@@ -45,3 +45,5 @@ p
 Mapp/src/main/java/com/droid/jetpacktutorial/room/repository/RoomRepository.kt,0/d/0dd14fa0029dfb05124aea70f4a0305ea49e4686
 u
 Eapp/src/main/java/com/droid/jetpacktutorial/room/view/RoomActivity.kt,5/8/58833373f34a2eea5d4c641f70b2355425d165b1
+w
+Gapp/src/main/java/com/droid/jetpacktutorial/room/adapter/RoomAdapter.kt,c/b/cb37a7abb65fe4377195808b33a75be4b01ae20a

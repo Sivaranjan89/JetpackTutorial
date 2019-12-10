@@ -21,6 +21,9 @@
         <activity android:name=".security.view.SecurityActivity"/>
         <activity android:name=".navigation.view.NavigationActivity" android:theme="@style/Theme.AppCompat.Light"/>
         <activity android:name=".room.view.RoomActivity"/>
+        <activity android:name=".palette.view.PaletteActivity" />
+        <activity android:name=".notifications.view.NotificationActivity" />
+        <activity android:name=".preferences.view.PreferenceActivity" />
     </application>
 
 </manifest>
