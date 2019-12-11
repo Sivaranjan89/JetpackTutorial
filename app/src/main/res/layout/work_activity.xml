@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/one_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/d_20"
+        style="@style/BlackBold20"
+        android:hint="@string/one_time_request" />
+
+    <Button
+        android:id="@+id/wifi_connected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/one_time"
+        android:layout_marginTop="@dimen/d_20"
+        style="@style/BlackBold20"
+        android:hint="@string/wifi_connected" />
+
+    <Button
+        android:id="@+id/chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wifi_connected"
+        android:layout_marginTop="@dimen/d_20"
+        style="@style/BlackBold20"
+        android:hint="Chained Requests" />
+
+    <Button
+        android:id="@+id/periodic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chain"
+        android:layout_marginTop="@dimen/d_20"
+        style="@style/BlackBold20"
+        android:hint="@string/periodic_requests" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

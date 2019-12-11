@@ -50,6 +50,6 @@ class RoomActivity : AppCompatActivity() {
     }
 
     private fun initDagger() {
-        DaggerApplicationComponent.builder().application(application).build().injectHere(this)
+        DaggerApplicationComponent.builder().application(application).build().inject(this)
     }
 }

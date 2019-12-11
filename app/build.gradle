@@ -13,7 +13,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.droid.jetpacktutorial"
-        minSdkVersion 19
+        minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -36,6 +36,8 @@ def roomVersion = '2.2.2'
 def coroutinesVersion = '1.1.1'
 def paletteVersion = '1.0.0'
 def preferenceVersion = '1.1.0'
+def securityVersion = '1.0.0-alpha02'
+def workVersion = '1.0.0-beta02'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -71,4 +73,10 @@ dependencies {
 
     //Preferences
     implementation "androidx.preference:preference:$preferenceVersion"
+
+    //Security
+    implementation "androidx.security:security-crypto:$securityVersion"
+
+    //Work Manager
+    implementation "android.arch.work:work-runtime-ktx:$workVersion"
 }

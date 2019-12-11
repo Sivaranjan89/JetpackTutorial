@@ -5,7 +5,17 @@ import androidx.lifecycle.ViewModel
 
 class HomeViewModel : ViewModel() {
 
-    val topics = listOf("Security", "Navigation", "Paging", "Room", "Workmanager", "CameraX", "Notifications", "Permissions", "Preferences", "Sharing", "Palette")
+    val topics = listOf(
+        "Security",
+        "Navigation",
+        "Paging",
+        "Room",
+        "Workmanager",
+        "CameraX",
+        "Notifications",
+        "Preferences",
+        "Palette"
+    )
 
     private var selectedtopic : MutableLiveData<String> = MutableLiveData()
 

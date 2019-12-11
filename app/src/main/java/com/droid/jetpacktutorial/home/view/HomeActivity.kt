@@ -16,6 +16,7 @@ import com.droid.jetpacktutorial.palette.view.PaletteActivity
 import com.droid.jetpacktutorial.preferences.view.PreferenceActivity
 import com.droid.jetpacktutorial.room.view.RoomActivity
 import com.droid.jetpacktutorial.utils.openActivity
+import com.droid.jetpacktutorial.workmanager.view.WorkActivity
 import javax.inject.Inject
 
 class HomeActivity : AppCompatActivity() {
@@ -56,6 +57,8 @@ class HomeActivity : AppCompatActivity() {
             openActivity(NotificationActivity::class.java)
         } else if (topic.equals("Preferences")) {
             openActivity(PreferenceActivity::class.java)
+        } else if (topic.equals("Workmanager")) {
+            openActivity(WorkActivity::class.java)
         }
     }
 
