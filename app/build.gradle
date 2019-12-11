@@ -35,6 +35,7 @@ def navigationVersion = '2.1.0'
 def roomVersion = '2.2.2'
 def coroutinesVersion = '1.1.1'
 def paletteVersion = '1.0.0'
+def preferenceVersion = '1.1.0'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -67,4 +68,7 @@ dependencies {
 
     //Palette
     implementation "androidx.palette:palette:$paletteVersion"
+
+    //Preferences
+    implementation "androidx.preference:preference:$preferenceVersion"
 }

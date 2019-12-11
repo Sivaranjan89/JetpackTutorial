@@ -23,7 +23,9 @@
         <activity android:name=".room.view.RoomActivity"/>
         <activity android:name=".palette.view.PaletteActivity" />
         <activity android:name=".notifications.view.NotificationActivity" />
-        <activity android:name=".preferences.view.PreferenceActivity" />
+        <activity
+            android:name=".preferences.view.PreferenceActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
     </application>
 
 </manifest>

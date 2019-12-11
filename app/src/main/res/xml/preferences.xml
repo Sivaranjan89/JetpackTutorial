@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:singleLineTitle="true"
+        app:title="@string/pref_example"
+        app:defaultValue=" "
+        app:key="pref_example" />
+
+</PreferenceScreen>
